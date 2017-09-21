@@ -28,6 +28,11 @@ app.on('ready', function() {
         event.returnValue= "";
         infoWindow.hide();
     });
+
+    ipc.on('openInfoWindow', function(event, arg){
+        event.returnValue= "";
+        infoWindow.show();
+    });
 });
 
 

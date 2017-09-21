@@ -41,7 +41,7 @@ gulp.watch([ app + '/**/*.html'], ['html']);
 });
 
 gulp.task('serve', ['html', 'js', 'css'], function() {
-    exec('electron app/main.js');
+    exec('electron .');
 //run('electron app/main.js').exec();
 //gulp.watch('electron app/main.js', ['default']);
 });
