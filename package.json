@@ -1,6 +1,9 @@
 {
     "name": "LyndaElectron",
     "version": "1.0.0",
+    "scripts": {
+        "pack": "electron-packager . 'Wisdom Pet' --out  ~/Desktop/WinsdomPet --overwrite --icon ./icons/icon"
+    },
     "main": "app/main.js",
     "devDependencies": {
         "electron": "^1.7.6",
